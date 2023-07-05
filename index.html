@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Proyecto</title>
-
+    <link rel="stylesheet" href="./estilo.css">
     <script src="https://kit.fontawesome.com/4b5568bc3c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--BARRA NAVEGACION-->
     <header>
-        <img src="img/Logo.jpeg" alt="Logo empresa">
+        <img class="logo" src="img/Logo.jpeg" alt="Logo empresa">
         <nav>
             <ul>
+                <li><a href="#">Inicio</a></li>
                 <li><a href="#dos">Sobre nosotros</a></li>
                 <li><a href="#tres">Trabajos</a></li>
                 <li><a href="#cuatro">Equipo</a></li>
@@ -31,18 +32,22 @@
 <hr>
         <!--SEGUNDA SECCION/ SOBRE NOSOTROS-->
         <section class="dos" id="dos">
-            <h2>SOBRE NOSOTROS</h2>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam ea vitae, rem nesciunt, dolor quidem sed veniam error aperiam nostrum iste, quas veritatis officia porro aspernatur fuga enim quibusdam.</P>
-            <ul>
-                <li>Asesoramiento</li>
-                <li>Calidad</li>
-                <li>Rapidez</li>
-            </ul>
-            <img src="img/1.jpeg" alt="Mesa arrime">
-            <video controls autoplay loop>
-                <source src="./video/1.mp4">
-                <source src="./video/1.ogv">
-            </video>
+            <div>
+                <h2>SOBRE NOSOTROS</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam ea vitae, rem nesciunt, dolor quidem sed veniam error aperiam nostrum iste, quas veritatis officia porro aspernatur fuga enim quibusdam.</P>
+                <ul>
+                    <li>Asesoramiento</li>
+                    <li>Calidad</li>
+                    <li>Rapidez</li>
+                </ul>
+            </div>
+            <div>   
+                <img src="img/1.jpeg" alt="Mesa arrime">
+                <video controls autoplay>
+                    <source src="./video/1.mp4">
+                    <source src="./video/1.ogg">
+                </video>
+            </div>     
         </section>
 <hr>        
         <!--TERCERA SECCION/ aLGUNOS TRABAJOS -->
