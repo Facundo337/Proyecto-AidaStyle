@@ -1,7 +1,150 @@
 /*  */
-header{
+*{margin: 0;
+    padding: 0
+    ;
+}
+
+/*------BARRA NAVEGACION------*/
+
+header{ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    
+     }
+
+
+.logo {
+    width: 50px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 3px 0px 5px grey;
+    margin: 20px 0px 0px 60px;
+}
+
+  nav ul {display: flex;
+    margin: 20px 60px 0px 0px;
     
 }
-.logo {
+li{
+    list-style: none;
+    margin-left: 40px;
+}
+
+/*------PRIMERA SECCION------*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px;}
+
+.titulo{
+    padding: 30px 0px;
+    font-size: 50px;
+    text-align: center;
+}
+ .uno h2{
+    font-size: 30px;
+    margin-top: 150px;
+ }
+.uno{
+    height: 550px;
+    background:url(img/fondo.jpg) fixed  ;
+    background-size: cover;
+    justify-content: center;
+    align-items: center; 
+    color: white; 
+}
+
+.uno a{
+    background-color: rgba(230, 178, 68, 0.9);
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 4px;
+    margin: 50px;
+}
+.navegacion a{
+    text-decoration: none;
+    color: white ;
+}
+
+
+
+
+
+/*------SEGUNDA SECCION------*/
+
+
+.dos{
+    background-color: rgb(151, 151, 151, 0.3);
+}
+
+
+.dos p{
+    margin: 25px 0px 50px 0px;
+}
+.dos ul{
+    width: 100%;
+    display: flex;
+
+}
+
+.subrayado{
+    width: 300px ;
+    background-color: grey;
+    height: 4px;
+    border: none;
+}
+.dos i{
+    display: block;
+    text-align: start;
+    margin: 20px 10px 0px 0px;
+}
+
+.dos li img{
+    width: 70%;
+   
+}
+.futon{
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+}
+
+.recuadro{
+    height: 100px;
     width: 100px;
+    border: solid 6px rgb(150, 150, 150, 0.5);
+}
+.hamaca{
+    height: 50%;
+}
+
+.años{
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.años h3{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.numberlog{
+    font-size: 100px;
+    position: relative;
+    right: 45px;
+    color: rgba(153, 111, 57, 0.904);
+    
+}
+
+.segundacaja img{
+    box-shadow:5px 0px 10px rgb(75, 75, 75) ;
+    opacity: 0.9;
 }
