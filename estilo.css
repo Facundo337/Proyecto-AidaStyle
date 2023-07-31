@@ -1,4 +1,5 @@
 /*  */
+
 *{margin: 0;
     padding: 0
     ;
@@ -10,8 +11,12 @@ header{ display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    position: absolute;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(26, 26, 26, 0.95);
+    padding-top: 0;
+    z-index: 100;
      }
 
 
@@ -20,11 +25,11 @@ header{ display: flex;
     border-radius: 15px;
     border: 1px solid black;
     box-shadow: 3px 0px 5px grey;
-    margin: 20px 0px 0px 60px;
+    margin: 5px 0px 5px 60px;
 }
 
   nav ul {display: flex;
-    margin: 20px 60px 0px 0px;
+    margin: 0px 60px 0px 0px;
     
 }
 li{
@@ -83,6 +88,7 @@ section {
 
 .dos{
     background-color: rgb(151, 151, 151, 0.3);
+    padding-top: 80px;
 }
 
 
@@ -99,7 +105,8 @@ section {
     width: 300px ;
     background-color: grey;
     height: 4px;
-    border: none;
+    border-radius: 5px;
+
 }
 .dos i{
     display: block;
@@ -135,6 +142,7 @@ section {
     text-align: center;
     font-size: 25px;
     text-transform: uppercase;
+    color: rgba(153, 111, 57, 0.904);
 }
 .numberlog{
     font-size: 100px;
@@ -148,3 +156,155 @@ section {
     box-shadow:5px 0px 10px rgb(75, 75, 75) ;
     opacity: 0.9;
 }
+
+/*------TERCERA SECCION------*/
+ .tres h2{ font-size: 40px;
+            color:  rgb(26, 26, 26);
+            padding-top: 40px;
+            margin-bottom: 45px;
+
+    } 
+
+    .tres p{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .titulo3{
+        display: flex;
+        align-items: center;
+        
+    }
+    .secciones ul{
+        display: flex;
+        justify-content: center;
+        margin: 50px 0px 15px 0px;
+        padding: 0;
+        
+    }
+
+    .secciones li{
+        padding: 0;
+        margin: 0px 40px;
+        
+    }
+
+    .secciones a{
+        text-decoration: none;
+        background-color: rgb(249, 224, 187);
+        border-radius: 10px;
+        color:rgb(26, 26, 26); ;
+        padding: 5px 10px;
+        box-shadow:5px 0px 10px rgb(75, 75, 75) ;
+    }
+    .lineacostado{
+        width: 70px;
+        height: 3px;
+        background-color:  rgb(195, 129, 84);
+        border: none;
+        margin: 0px 20px;
+       
+        
+    }
+
+    .img1{
+       height: 75vh;
+        margin: 10px;
+        box-shadow:5px 0px 10px rgb(75, 75, 75)
+        }
+    
+    
+    .img2{
+         height: 78.5vh;
+         margin: 10px;
+         box-shadow:5px 0px 10px rgb(75, 75, 75)
+             }
+
+    .caja1{
+        width: 900px;
+        display: flex;
+        justify-content: center;
+    }
+    .caja2{
+        width: 900px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tres a{
+        padding: 8px 30px;
+        margin-top: 50px;
+        background-color: rgba(230, 178, 68, 0.9);
+        border: none;
+        box-shadow:5px 0px 10px rgb(75, 75, 75);
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+    }
+
+    /*------CUARTA SECCION------*/
+
+    .perfil{
+        width: 270px;
+        height: 270px;
+    }
+
+
+
+    .cuatro ul{
+        display: flex;
+    }
+
+    .cuatro li {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 15px;
+        background-color: white;
+        padding: 0px 10px 20px 10px;
+        box-shadow:5px 0px 10px rgb(75, 75, 75);
+    }
+
+    .cuatro p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .titulo4{ font-size: 40px;
+        color:  rgb(26, 26, 26);
+        padding-top: 40px;
+        margin-bottom: 45px;
+    }   
+    .textocuatro{
+        width: 500px;
+    }
+
+    .oficio{
+        font-weight: 10px;
+        text-align: center;
+        margin:15px 0px;
+    }
+
+    .img4{
+        width: 1263px;
+        position: relative;
+        bottom: 300px;
+        z-index: -2;
+        
+    }
+
+    .cuatro a{
+        text-decoration: none;
+        background-color: rgba(230, 178, 68, 0.9);
+        box-shadow:5px 0px 10px rgb(75, 75, 75);
+        padding: 5px 10px;
+        color: black;
+        border-radius: 5px;
+    }
+
+
+    .cinco{
+        margin-top: -150px;
+    }
+    
