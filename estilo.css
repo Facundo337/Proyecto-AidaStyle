@@ -250,7 +250,7 @@ section {
     /*------CUARTA SECCION------*/
     .cuatro{
         background-color: rgb(151, 151, 151, 0.3);
-       height: 1585px;
+       height: 1505px;
       position: relative;
       z-index: -50;
     }
@@ -316,10 +316,11 @@ section {
 
     .contenedor{
         display: flex;
-        gap: 50px;
+        gap: 70px;
     }
 
     .caja{
+        padding-top: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
