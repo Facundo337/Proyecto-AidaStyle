@@ -110,6 +110,11 @@ section {
     display: flex;
 
 }
+.recuadro{
+    height: 100px;
+    width: 100px;
+    border: solid 6px rgb(150, 150, 150, 0.5);
+}
 
 .subrayado{
     width: 300px ;
@@ -124,7 +129,7 @@ section {
     margin: 20px 10px 0px 0px;
 }
 
-.dos li img{
+.dos img{
     width: 70%;
    
 }
@@ -134,11 +139,7 @@ section {
     bottom: 100px;
 }
 
-.recuadro{
-    height: 100px;
-    width: 100px;
-    border: solid 6px rgb(150, 150, 150, 0.5);
-}
+
 .hamaca{
     height: 50%;
 }
@@ -460,3 +461,79 @@ font-size: 20px;
     img{
         object-fit: cover;
     }
+
+    /*------MEDIAQUERY------*/
+
+    @media(max-width:800px){
+
+        header{
+            width: 800px;
+        }
+
+        .dos ul{
+            width: 800px;
+        }
+
+        .futon{
+            position: unset;
+            margin-top: 50px;
+        }
+
+        .segundacaja{
+            margin-top: 100px;
+        }
+
+        .tres h2 {
+            font-size: 30px
+    }
+    
+    .img1_1 {
+        width: 200px;
+    }
+
+    .img1_2 {
+        width: 300px;
+    }
+
+    .comodidad{
+        font-weight: 150px;
+        bottom: 90px;
+    }
+
+    .img2_1 {
+        width: 300px;
+    }
+    .img2_2 {
+        width: 280px;
+    }
+    .img3_1 {
+        width: 250px;
+    }
+    .img3_2 {
+        width: 350px;
+
+    }
+    .stilo{
+        left: 140px;
+    }
+    .titulo4 {
+    font-size: 30px;
+    }
+    .cuatro li {
+        width: 210px;}
+    .perfil {
+            width: 230px;
+        }
+    .img4 {
+            width: 800px;
+        bottom: 250px;}
+    .caja{
+        padding: 0px;
+    }
+    .cinco {
+        margin-top: 0px;
+    }
+
+}
+
+    
