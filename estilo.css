@@ -12,11 +12,7 @@
 }
 
 
-.hamburguesa{
-    visibility: hidden;
-    font-size: 40px;
-    color: whitesmoke;
-}
+
 
 /*------BARRA NAVEGACION------*/
 
@@ -94,6 +90,7 @@ section {
 .navegacion a{
     text-decoration: none;
     color: white ;
+    padding-bottom: 50px;
 }
 
 
@@ -351,7 +348,7 @@ font-size: 20px;
     }
 
     .img4{
-        width: 1263px;
+        width: 131%;
         position: relative;
         bottom: 300px;
         z-index: -2;
@@ -469,6 +466,15 @@ font-size: 20px;
         object-fit: cover;
     }
 
+
+    .label{
+    display: none;
+}
+
+.hamburguesa{
+    font-size: 0.2px;
+}
+
     /*------MEDIAQUERY------*/
 
     @media(max-width:800px){
@@ -534,7 +540,7 @@ font-size: 20px;
             width: 230px;
         }
     .img4 {
-            width: 800px;
+            width: 160%;
         bottom: 250px;}
     .caja{
         padding: 0px;
@@ -549,7 +555,13 @@ font-size: 20px;
     display: none;
 }
 @media(max-width:500px){
-    .hamburguesa{visibility: visible;
+
+    .label{
+        display: block;
+    }
+    .hamburguesa{
+        font-size: 40px;
+        color: whitesmoke;
         margin-right: 20px;}
 
     #input-hamb:checked + .navegacion{
@@ -593,7 +605,11 @@ font-size: 20px;
     }
 
     .primercaja {
-        margin-left: 200px
+        margin-left: 200px;
+    }
+
+    .dos p{
+        width: 300px;
     }
      .segundacaja{
         margin-top: 50px;
@@ -665,6 +681,45 @@ font-size: 20px;
             left: 120px;
         }
 
-}
+        .titulo4{
+            text-align: center;
+        }
+
+        .cuatro ul{
+            display: block;
+        }
+
+        .cuatro{
+            height: 100%;
+            padding-bottom: 0px;
+        }
+
+        .img4{
+            width: 250%;
+            bottom: 170px;
+        }
+        .contenedor{
+            gap:30px;
+            
+        }
+
+        .caja h2{
+            font-size: 30px;
+        }
+
+        .caja h3{
+            font-size: 15px;
+        }
+        
+        .formulario{
+            display: block;
+        }
+        
+        .cinco h4{
+            margin:25px 0px 15px 0px;
+
+        }
+    }   
+
 
     
