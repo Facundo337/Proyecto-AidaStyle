@@ -281,7 +281,7 @@ font-size: 20px;
         font-size: 100px;
         font-weight: 200;
         bottom: 200px;
-       left: 100px;
+       left: 220px;
         
     }
 
@@ -570,12 +570,13 @@ font-size: 20px;
     }
 
     .navegacion a{
-        color: grey;
+        color:black;
+        padding-right: 10px
         
     }
 
     .navegacion li{
-        margin-top: 15px;
+        margin-top: 10px;
     }
     
     .navegacion{
@@ -719,6 +720,19 @@ font-size: 20px;
             margin:25px 0px 15px 0px;
 
         }
+
+        .navegacion{
+            position: absolute;
+            right: -10px;
+            top: 65px;
+            background-color: whitesmoke;
+            
+        }
+
+        .navegacion li{
+            margin-left: 5px;
+            
+        };
     }   
 
 
